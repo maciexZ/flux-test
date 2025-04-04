@@ -1,6 +1,6 @@
 # kustomization.yaml
 configMapGenerator:
-  - name: dupaConfig
+  - name: dupa-config
     namespace: dupa
     behavior: create
     files:
