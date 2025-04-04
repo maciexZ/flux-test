@@ -2,7 +2,7 @@
 configMapGenerator:
   - name: dupaConfig
     namespace: dupa
-    behavior: merge
+    behavior: create
     files:
     - 1.xml
     - 2.html
