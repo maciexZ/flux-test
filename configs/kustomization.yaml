@@ -3,6 +3,5 @@ configMapGenerator:
   - name: dupaConfig
     behavior: merge
     files:
-      - configs/1.xml
-      - configs/2.html
-      - configs/3.json
+      - 1.xml
+      - 2.html
