@@ -1,7 +1,8 @@
 # kustomization.yaml
 configMapGenerator:
   - name: dupaConfig
+    namespace: dupa
     behavior: merge
     files:
-      - 1.xml
-      - 2.html
+    - 1.xml
+    - 2.html
